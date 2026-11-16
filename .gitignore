@@ -1,0 +1,19 @@
+# The directory to ignore when transferring files to server
+/_build/
+/cover/
+/deps/
+/doc/
+/.fetch
+tmp/
+*.ez
+
+# Generated on runtime
+/priv/static/cache_manifest.json
+
+# Credentials & secrets
+/.env
+/.env.*
+!/.env.example
+
+# Development and testing
+/fit_manager_*.tar.gz
