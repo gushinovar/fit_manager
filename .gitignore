@@ -17,3 +17,8 @@ tmp/
 
 # Development and testing
 /fit_manager_*.tar.gz
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate*
+terraform/.terraform.lock.hcl
