@@ -14,7 +14,7 @@ config :fit_manager, FitManager.Repo,
 # For development, we disable any cache and enable
 # debugging and code reloading.
 config :fit_manager, FitManagerWeb.Endpoint,
-  http: [ip: {127, 0, 0, 1}, port: 4000],
+  http: [ip: {0, 0, 0, 0}, port: 4000],
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
