@@ -29,6 +29,12 @@ defmodule FitManagerWeb do
     end
   end
 
+  def html do
+    quote do
+      use Phoenix.Component
+    end
+  end
+
   def channel do
     quote do
       use Phoenix.Channel
@@ -38,8 +44,7 @@ defmodule FitManagerWeb do
   def controller do
     quote do
       use Phoenix.Controller,
-        formats: [:json],
-        layouts: [json: FitManagerWeb.Layouts]
+        formats: [:json]
 
       import Plug.Conn
 
